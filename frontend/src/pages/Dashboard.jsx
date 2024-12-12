@@ -29,8 +29,6 @@ function Dashboard() {
   return (
     <div className="dark:bg-gray-800 overflow-auto h-screen text-black">
       <div className="container mx-auto px-4 py-2 md:px-8">
-        {" "}
-        {/* Basic container structure */}
         <div className="flex justify-between text-white">
           <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
           <button

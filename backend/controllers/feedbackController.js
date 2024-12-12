@@ -54,8 +54,7 @@ const getFeedback = async (req, res) => {
   if (categories.includes(req.query.category)) {
     category = req.query.category;
   }
-  console.log(req.query);
-  console.log(sortOrder, category);
+ 
   try {
     let feedbacks;
     if (category === "all") {
